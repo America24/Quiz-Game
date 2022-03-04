@@ -1,0 +1,35 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  display: block;
+  background-color: rgb(240, 140, 190);
+  text-align: center;
+}
+
+body h1 {
+  color: aqua;
+  font-size: 40px;
+}
+
+header {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+section {
+  text-align: right center;
+  padding: 0 20%;
+}
+
+
+.feedback {
+  font-style: normal;
+  font-size: 100%;
+  margin-top: 15px;
+  padding-top: 10px;
+
+}

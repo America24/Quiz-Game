@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Quiz Game</title>
+    <div class="highscores"><a href="./highscore.html">view highscores</a></div>
+</head>
+<body>
+    
+
+<section class="container">
+    <div id="timer"> Time: 50</div>
+    <div >
+            <h1>Basketball Quiz</h1>
+            <p id="intro">
+                Basketball is a world known sport. Questions here will be based on NBA players and teams. 
+                Let's see how well you know basketball before the timer reaches 0.
+            </p>
+            <button id="start-btn" class="start-btn btn">Start Quiz</button>
+
+     </div>
+     <div id="question-container" class="hide"> 
+            <div id="question">Question</div>
+            <div id="answer-button" class="btn-grid"></div>
+            
+        </div>
+            <div id="end-game" class=" hide">
+                <p>Final Score <span id="final-score"></span></p>
+                <p>
+                Enter Your Name <input type="text" id="name" >
+                    <button id="submit">Submit</button>
+                </p>
+             </div>
+             <div class="feedback" id="feedback"></div>
+        
+</section>
+
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
